@@ -80,16 +80,20 @@ a{
 	background:url(https://photos-3.dropbox.com/t/2/AADrUk2_OaTH0m1-yBsQHBjTrG0uGBqv3mo9xZJG6bjbvA/12/651879502/png/32x32/1/_/1/2/top-image.png/EKy-76YFGBsgBygH/W-k4j379Miz4Z7r0SBa0Fa5Cp6w0SChxnWQ0TxXMzHQ?size=2048x1536&size_mode=3);
 	height:300px;
 	width:600px;
-	background-size: stretch;
+	/*background-size: stretch;*/
 	background-repeat: no-repeat;
-	background-position: -400px -150px;
+	background-position: -500px -100px;
 	border: 3px solid white;
 	position:relative;
 	overflow: hidden;
 }
 
+div .secondPic{
+	background-color: transparent;
+}
+
 .secondPic img{
-	background:transparent;
+	overflow: hidden;
 	position:absolute;
 	height: 150px;
 	width:250px;
@@ -132,6 +136,7 @@ a{
 .skateboarders{
 	margin-bottom: 25px;
 }
+
 .skateboarders div{
 	height: 150px;
 	line-height:150px;
@@ -225,26 +230,47 @@ a{
 	height: 300px;
 	display:flex;
 }
+.contact h4{
+	margin-top: 12px;
+	padding-left: 20px;
+	color:rgb(57,57,57);
+
+}
 
 p{
-	padding-right: 200px;
 	padding-left: 20px;
 	margin-top: 0;
+	color:rgb(89,89,89);
+	font-size: 12px;
 }
 
 div form input{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
+	width: 250px;
+	margin-right: 25px;
+	margin-top: 10px;
+	border:normal;
 }
 
 .submit{
 	color:white;
-	text-align:right;
 	background-color: rgb(180, 41, 46);
-	width: 100px;
+	width: 125px;
+	padding-left: 40px;
+	margin-left: 125px;
+	border: 4px;
+
 }
 
+.yourmessage{
+	height: 150px;
+}
+
+.contact p{
+	line-height: 18px;
+}
 .contact .fa-youtube-square{	
 	color:rgb(110,110,110);
 	background-color: rgb(145,145,145);
@@ -263,4 +289,5 @@ div form input{
 .contact .fa-facebook-official{
 	color:rgb(79,79,79);
 	background-color: rgb(123,123,123);
+	margin-left:20px;
 } 
