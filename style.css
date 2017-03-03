@@ -1,0 +1,181 @@
+html {
+	box-sizing:border-box;
+}
+
+*, *:before, *:after {
+	box-sizing:inherit;
+}	
+
+body{
+	background:url(https://photos-1.dropbox.com/t/2/AABEYMio03uHlDx6R1wqhdR38OeaAwG6vqpzZY1D_krAJA/12/651879502/jpeg/32x32/1/_/1/2/bg.jpg/EKy-76YFGBUgBygH/Wj96U33llb_4n1XxVH8wQkrqnPMrgxtc_2nF147xNow?size=2048x1536&size_mode=3);
+}
+
+#container{
+	margin-left: 350px;
+	margin-bottom: 50px;
+}
+
+.subscribe .fa {
+	font-size: 40px;
+	margin:5px 3px;
+}
+
+
+.subscribe{
+	height: 50px;
+	line-height: 50px;
+	width: 600px;
+	background-color: transparent;
+	display:flex;
+	align-items: right;
+	color: white;
+}
+
+.subscribe div{
+	margin-left: 325px;
+	margin-right: 45px;
+}
+
+.fa-youtube-square{	
+	color:rgb(178,46,55);
+	background-color: rgb(194,96,87);
+} 
+
+.fa-twitter-square{
+	color:rgb(106,141,199);
+	background-color: rgb(144,168,212);
+} 
+
+.fa-rss-square{
+	color:rgb(204,143,50);
+	background-color: rgb(216,171,101);
+} 
+
+.fa-facebook-official{
+	color:rgb(68,88,151);
+	background-color: rgb(116,130,177);
+} 
+
+.links {
+	display:flex;
+}
+
+.links div{
+	line-height: 20px;
+	height:35px;
+	line-height: 35px;
+	width: 143px;
+	background-color: rgb(180, 41, 46);
+	margin:10px 10px 10px 0;
+	text-align: center;
+	color:white;
+}
+
+.top{
+	background:url(https://photos-3.dropbox.com/t/2/AADrUk2_OaTH0m1-yBsQHBjTrG0uGBqv3mo9xZJG6bjbvA/12/651879502/png/32x32/1/_/1/2/top-image.png/EKy-76YFGBsgBygH/W-k4j379Miz4Z7r0SBa0Fa5Cp6w0SChxnWQ0TxXMzHQ?size=2048x1536&size_mode=3);
+	height:300px;
+	width:600px;
+	background-size: cover;
+
+}
+/*div {
+	color:black;
+}*/
+
+.news{
+	display: flex;
+}
+
+.news div{
+	height: 300px;
+	width:193px;
+	background-color: white;
+	margin: 10px 10px 10px 0;
+}
+
+.skateboarders{
+	margin-bottom: 25px;
+}
+.skateboarders div{
+	height: 150px;
+	line-height:150px;
+	width:200px;
+	text-align: center;
+	float: left;
+	border: 1px solid white;
+	position:relative;
+	color: white;
+	padding: 5px;
+}
+
+.skateboarders div:first-child{
+	background:url(https://photos-3.dropbox.com/t/2/AAC8gR0GkEZe0UMuyugjwTOYhPUN91rAGAKHhzQ8mLS9Fw/12/651879502/png/32x32/1/_/1/2/sk8er-4.png/EKy-76YFGBsgBygH/t-EdP4AYhbnUz_dJ_VDh8UQsT9HZldm5GPQO4_3YFFo?size=2048x1536&size_mode=3);
+	background-size: cover;
+}
+
+.skateboarders div:nth-child(2){
+	background:url(https://photos-1.dropbox.com/t/2/AACy_gpWal0uXc-xoUlulPr5XSE07zFRGH-eGafdAOOi6w/12/651879502/png/32x32/1/_/1/2/sk8er-3.png/EKy-76YFGBsgBygH/MDMLxBbn4RJ2p8MAEv7rLJ19l6oCR0AhZ0d7uImWlyQ?size=2048x1536&size_mode=3);
+	background-size: cover;
+	}
+.skateboarders div:nth-child(3){
+	clear: left;
+	width:400px;
+	background:url(https://photos-1.dropbox.com/t/2/AABiZwev1PMKjTAysthlS4cL0g_iNtsJj5Oo3EcJFMQ5dQ/12/651879502/png/32x32/1/_/1/2/sk8er-1.png/EKy-76YFGBsgBygH/MziCC0CTi-wHBU5grY5K3jagHnoMT_vI8EXeB2QgSdU?size=2048x1536&size_mode=3);
+  color:white;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+.skateboarders div:nth-child(4){
+	clear:right;
+	height:300px;
+	line-height: 300px;
+	margin-top:-150px;
+	background: url(https://photos-5.dropbox.com/t/2/AACQC8aN3yr1KrEbutyrqRO_Rh-pX6XTBvqZoXq9YhEMnw/12/651879502/png/32x32/1/_/1/2/sk8er-2.png/EKy-76YFGBsgBygH/UM8ePqiezO-UZuV0svk1fDzb0LngBhM_31WWTfi1_Xs?size=2048x1536&size_mode=3);
+	background-size: cover;
+}
+
+.skateboarders div:nth-child(5){
+	clear:left;
+	height: 50px;
+	line-height: 40px;
+	position:absolute;
+	left: 100px;
+	top: 780px;
+	background-color: rgb(180, 41, 46);
+}
+
+.design{
+	background-color: white;
+	clear:both;
+	width:600px;
+	height: 250px;
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 25px;
+}
+
+.design img{
+	height: 215px;
+	margin: 25px 0;
+}
+.contact{
+	background-color: white;
+	width: 600px;
+	height: 300px;
+}
+
+p{
+	float:left;
+	padding-right: 200px;
+	padding-left: 20px;
+	margin-top: 0;
+}
+
+div form {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	float:right;
+}
