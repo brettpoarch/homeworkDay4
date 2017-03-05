@@ -16,7 +16,7 @@ body{
 }
 
 .main{
-	border-bottom: 2px solid grey;
+	border-bottom: 2px solid rgb(232, 236, 239);
 }
 .logo{
 	display:flex;
@@ -170,20 +170,105 @@ h4{
 	color:rgb(174,198,188);
 	line-height: 24px;
 	font-size: 15px;
+}
+
+.bottom{
+	position:relative;
+}
+
+.bottom h1{
+	font-size: 55px;
+	color: rgb(8, 52, 82);
+	margin-left: 360px;
+	line-height: 125px;
+	margin-bottom: -5px;
+	margin-top: -5px;
+}
+
+.bottomImg {
+	display: flex;
+}
+
+.bottom .bottomImg{
+	background:rgba(76, 175, 60, 0.3); 
 
 }
 
+.bottom div{
+	font-size: 25px;
+	display:flex;
+	left: 250px;
+	top: 400px;
+	color:white;
+	font-weight:bold;
+
+}
+
+.bottom .imgOneTitle{
+	left:0px;
+	top:400px;
+	position:absolute;
+}
+
+.bottom .imgTwoTitle{
+	left: 350px;
+	top:400px;
+	position:absolute;
+}
+
+.bottom .imgThreeTitle{
+	top:375px;
+	left:675px;
+	width:260px;
+	position:absolute;
+}
 
 
+.bottom .imgFourTitle{
+	top:405px;
+	left:1000px;
+	position:absolute;
+}
 
+footer{
+	background-color: rgb(8,52,82);
+	height:97px;
+	margin-right: -20px;
+	position:relative;
+	color: white;
+	font-size: 12px;
+}
 
+.ironYard{
+	display: flex;
+	position: relative;
+  top: 30px;
+  left: 175px;
+  width: 400px;
+}
 
+.ironYard p{
+	margin-left: 10px;
+	margin-top: 20px;
+}
+.bottomNav{
+	display: flex;
+	position: absolute;
+	top:42px;
+	left:800px;
+	line-height: 30px;
+	width: 400px;
+}
 
+.bottomNav div{
+	padding-left: 15px;
+	padding-right: 10px;
+	border-right: 2px solid grey;
+}
 
-
-
-
-
+.bottomNav div:last-child{
+	border:none;
+}
 
 
 
