@@ -114,12 +114,38 @@ body{
 	color:rgb(104,114,120);
 	line-height: 25px;
 }
+.readShare{
+	display: flex;
+}
+.readShare img{
+	background: rgb(92, 102, 108);
+	height: 25px;
+	border: 7px solid rgb(92, 102, 108);
+}
 
+.readShare div{
+	background:lightgrey;
+	color:white;
+	font-size: 12px;
+  line-height: 10px;
+  margin-bottom: 50px;
+  margin-right: 20px;
+}
+
+.readShare div:last-child img{
+	background-color: rgb(8,52,82);
+	border: 7px solid rgb(8, 52, 82);
+
+}
+
+.readShare div:last-child{
+	background-color: rgb(16,109,179)
+}
 .rightSide{
 	width:400px;
 	float:right;
 	height:400px;
-	margin-top: -825px
+	margin-top: -905px
 }
 
 .rightSide img{
@@ -185,13 +211,13 @@ h4{
 	margin-top: -5px;
 }
 
-.bottomImg {
+.bottomImg img{
 	display: flex;
+	opacity: 0.5;
 }
 
-.bottom .bottomImg{
-	background:rgba(76, 175, 60, 0.3); 
-
+.bottomImg img:hover{
+	opacity: 1.0;
 }
 
 .bottom div{
@@ -203,6 +229,7 @@ h4{
 	font-weight:bold;
 
 }
+
 
 .bottom .imgOneTitle{
 	left:0px;
@@ -270,7 +297,12 @@ footer{
 	border:none;
 }
 
-
+@media(max-width:700px){
+	#container, .main, .top, .bottom, .footer {
+		width: 600px;
+		justify-content: column;
+	}
+}
 
 
 
